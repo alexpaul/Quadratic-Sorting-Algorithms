@@ -5,8 +5,8 @@ Quadratic sorting algorithms. Bubble sort and Insertion sort.
 
 ## Bubble Sort 
 
-Rumtime: `O(n ^ 2)`
-Space complexity: `O(1)`
+Rumtime: `O(n ^ 2)`   
+Space complexity: `O(1)`   
 
 ```swift 
 func bubbleSort(_ arr: inout [Int]) {
@@ -28,8 +28,8 @@ print(inputArr) // [-8, 2, 4, 10]
 
 ## Insertion Sort
 
-Rumtime: `O(n ^ 2)`
-Space complexity: `O(1)`
+Rumtime: `O(n ^ 2)`   
+Space complexity: `O(1)`    
 
 ```swift 
 func insertionSort(_ arr: inout [Int]) {
