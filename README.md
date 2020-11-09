@@ -5,7 +5,7 @@ Quadratic runtime sorting algorithms. Bubble sort and Insertion sort.
 
 ## Bubble Sort 
 
-Rumtime: `O(n ^ 2)`   
+Runtime: `O(n ^ 2)`   
 Space complexity: `O(1)`  
 
 In the illustration below we do the following: 
