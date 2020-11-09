@@ -66,6 +66,13 @@ print(outOfOrderArr) // [-8, 2, 4, 10]
 Rumtime: `O(n ^ 2)`   
 Space complexity: `O(1)`   
 
+In the illustration below we do the following: 
+
+1. Two for loops are used to sort and unsorted array. 
+2. The inner for loop reversed the current position and the left array to sort. 
+3. If position j is less than position j - 1 we swap the elements in place. 
+4. If the elements at current are sorted we break out of the inner for loop. 
+
 ![insertion sort sketch](https://user-images.githubusercontent.com/1819208/98546768-34ee3600-2265-11eb-860f-27c1fdef5769.jpg)
 
 ```swift 
