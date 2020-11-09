@@ -87,3 +87,11 @@ var unsortedArr = [10, 2, -8, 4]
 insertionSort(&unsortedArr)
 print(unsortedArr) // [-8, 2, 4, 10]
 ```
+
+
+## Resources 
+
+1. [Wikipedia - Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)
+2. [RW - Swift Algorithm Club - Bubble Sort](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Bubble%20Sort)
+3. [Wikipedia - Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)
+4. [RW - Swift Algorithm Club - Insertion Sort](https://github.com/raywenderlich/swift-algorithm-club/tree/master/Insertion%20Sort)
