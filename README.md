@@ -6,7 +6,9 @@ Quadratic sorting algorithms. Bubble sort and Insertion sort.
 ## Bubble Sort 
 
 Rumtime: `O(n ^ 2)`   
-Space complexity: `O(1)`   
+Space complexity: `O(1)`  
+
+![bubble sort](https://user-images.githubusercontent.com/1819208/98544593-3b2ee300-2262-11eb-9fc9-b8f66608f4ff.jpg)
 
 ## Bubble Sort Implementation 
 
