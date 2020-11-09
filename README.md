@@ -8,6 +8,13 @@ Quadratic sorting algorithms. Bubble sort and Insertion sort.
 Rumtime: `O(n ^ 2)`   
 Space complexity: `O(1)`  
 
+In the illustration below we do the following: 
+
+1. We use two for loops to sort an unsorted array. 
+2. In the inner for loop we start from index 1 and traverse the array. 
+3. We compare adjacent values of position at `j` and postion at `j - 1`, `j`'s value is less we perform a `swap`. 
+4. The steps above continue until we have exhausted traversing the outer loop's elements. 
+
 ![bubble sort](https://user-images.githubusercontent.com/1819208/98544593-3b2ee300-2262-11eb-9fc9-b8f66608f4ff.jpg)
 
 ## Bubble Sort Implementation 
