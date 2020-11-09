@@ -71,17 +71,17 @@ func insertionSort(_ arr: inout [Int]) {
   guard arr.count > 1 else { return }
   for current in 1..<arr.count {
     for j in (1...current).reversed() {
-      print("insertion")
+      print(current, j) // 5 times
       if arr[j] < arr[j - 1] {
         arr.swapAt(j, j - 1)
       } else {
-        break
+        break // inner loop
       }
     }
   }
 }
 
-var insertionArr = [1, 2, 3, 4, 5, 6, -1]
-insertionSort(&insertionArr)
-print(insertionArr) // [-1, 1, 2, 3, 4, 5, 6]
+var unsortedArr = [10, 2, -8, 4]
+insertionSort(&unsortedArr)
+print(unsortedArr) // [-8, 2, 4, 10]
 ```
