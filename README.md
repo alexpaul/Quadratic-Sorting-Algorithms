@@ -15,7 +15,7 @@ In the illustration below we do the following:
 3. We compare adjacent values of position at `j` and postion at `j - 1`, `j`'s value is less we perform a `swap`. 
 4. The steps above continue until we have exhausted traversing the outer loop's elements. 
 
-![bubble sort](https://user-images.githubusercontent.com/1819208/98544593-3b2ee300-2262-11eb-9fc9-b8f66608f4ff.jpg)
+![bubble sort sketch](https://user-images.githubusercontent.com/1819208/98544593-3b2ee300-2262-11eb-9fc9-b8f66608f4ff.jpg)
 
 ## Bubble Sort Implementation 
 
@@ -66,7 +66,7 @@ print(outOfOrderArr) // [-8, 2, 4, 10]
 Rumtime: `O(n ^ 2)`   
 Space complexity: `O(1)`   
 
-![]()
+![insertion sort sketch](https://user-images.githubusercontent.com/1819208/98546638-01131080-2265-11eb-92b5-3149e6c36899.jpg)
 
 ```swift 
 func insertionSort(_ arr: inout [Int]) {
