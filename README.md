@@ -66,7 +66,7 @@ print(outOfOrderArr) // [-8, 2, 4, 10]
 Rumtime: `O(n ^ 2)`   
 Space complexity: `O(1)`   
 
-![insertion sort sketch](https://user-images.githubusercontent.com/1819208/98546638-01131080-2265-11eb-92b5-3149e6c36899.jpg)
+![insertion sort sketch](https://user-images.githubusercontent.com/1819208/98546768-34ee3600-2265-11eb-860f-27c1fdef5769.jpg)
 
 ```swift 
 func insertionSort(_ arr: inout [Int]) {
