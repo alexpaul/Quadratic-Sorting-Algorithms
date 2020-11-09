@@ -8,10 +8,13 @@ Quadratic sorting algorithms. Bubble sort and Insertion sort.
 Rumtime: `O(n ^ 2)`   
 Space complexity: `O(1)`   
 
+## Bubble Sort Implementation 
+
 ```swift 
 func bubbleSort(_ arr: inout [Int]) {
-  for _ in 0..<arr.count { // n
-    for j in 1..<arr.count { // n
+  for i in 0..<arr.count {
+    for j in 1..<arr.count {
+      print(i, j) // 12 times
       if arr[j] < arr[j - 1] {
         arr.swapAt(j, j - 1)
       }
@@ -19,11 +22,34 @@ func bubbleSort(_ arr: inout [Int]) {
   }
 }
 
-var inputArr = [10, 2, -8, 4]
+var unsortedArr = [10, 2, -8, 4]
+bubbleSort(&unsortedArr)
+print(unsortedArr) // [-8, 2, 4, 10]
+```
 
-bubbleSort(&inputArr)
+## Bubble Sort Implementation (optimized) 
 
-print(inputArr) // [-8, 2, 4, 10]
+```swift 
+func optimizedBubbleSort(_ arr: inout [Int]) {
+  var swaps = false
+  outerloop: for i in 0..<arr.count {
+    for j in 1..<arr.count - i {
+      print(i, j) // 6 times
+      if arr[j] < arr[j - 1] {
+        arr.swapAt(j, j - 1)
+        swaps = true
+      }
+    }
+    if !swaps {
+      print("abort") // if the array is already sorted it will simply break out of the entire loop
+      break outerloop
+    }
+  }
+}
+
+var outOfOrderArr = [10, 2, -8, 4]
+optimizedBubbleSort(&outOfOrderArr)
+print(outOfOrderArr) // [-8, 2, 4, 10]
 ```
 
 ## Insertion Sort
