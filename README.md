@@ -1,6 +1,6 @@
 # Quadratic Sorting Algorithms
 
-Quadratic sorting algorithms. Bubble sort and Insertion sort. 
+Quadratic runtime sorting algorithms. Bubble sort and Insertion sort. 
 
 
 ## Bubble Sort 
