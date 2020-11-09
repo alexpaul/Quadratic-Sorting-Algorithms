@@ -41,7 +41,7 @@ print(unsortedArr) // [-8, 2, 4, 10]
 ```swift 
 func optimizedBubbleSort(_ arr: inout [Int]) {
   var swaps = false
-  outerloop: for i in 0..<arr.count {
+  for i in 0..<arr.count {
     for j in 1..<arr.count - i {
       print(i, j) // 6 times
       if arr[j] < arr[j - 1] {
@@ -51,7 +51,7 @@ func optimizedBubbleSort(_ arr: inout [Int]) {
     }
     if !swaps {
       print("abort") // if the array is already sorted it will simply break out of the entire loop
-      break outerloop
+      break
     }
   }
 }
